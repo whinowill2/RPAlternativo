@@ -1,0 +1,30 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_URI} ^/wp-admin [NC,OR]
+RewriteCond %{REQUEST_URI} ^/wp-login\.php [NC,OR]
+RewriteCond %{REQUEST_URI} ^/wp-json [NC]
+RewriteRule ^ - [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/wp-admin [NC]
+RewriteCond %{REQUEST_URI} !^/wp-includes [NC]
+RewriteCond %{REQUEST_URI} !^/wp-login\.php [NC]
+RewriteCond %{REQUEST_URI} !^/wp-json [NC]
+RewriteCond %{REQUEST_URI} !^/index\.php$ [NC]
+RewriteRule . /index.html [L]
+</IfModule>
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress

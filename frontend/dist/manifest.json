@@ -1,0 +1,22 @@
+{
+  "name": "SEU_NOME",
+  "short_name": "SEU_NOME",
+  "description": "DESCRICAO",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/imagens/SEU_ICON.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/imagens/SEU_ICON.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,274 @@
+
+.edicao-interna-page {
+    padding: 0;
+    margin-top: -80px;
+}
+.edicao-hero {
+    padding: 200px 5% 60px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+}
+.edicao-hero-inner {
+    margin: 0 auto;
+}
+.back-button {
+    background: transparent;
+    border: none;
+    font-size: 0.95rem;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 40px;
+    padding: 8px 0;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+}
+.back-button:hover {
+    opacity: 1;
+}
+.edicao-hero-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+}
+.edicao-cover-wrapper {
+    flex-shrink: 0;
+}
+.edicao-cover {
+    width: 260px;
+    height: 370px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border: 3px solid rgba(255, 255, 255, 0.15);
+}
+.edicao-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.6;
+    display: block;
+    margin-bottom: 10px;
+}
+.edicao-info h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 12px;
+    line-height: 1.1;
+}
+.edicao-meta {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.7;
+    font-size: 0.95rem;
+    margin-bottom: 24px;
+}
+.resumo {
+    line-height: 1.7;
+    font-size: 0.7rem;
+    margin-bottom: 32px;
+    opacity: 0.9;
+}
+.edicao-cta-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+.ui-btn-spotify {
+    background: #1ed760 !important;
+    color: #121212 !important;
+    border: none !important;
+}
+.edicao-flipbook-section {
+    padding: 50px 5%;
+}
+.edicao-flipbook-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.edicao-flipbook-container {
+    position: relative;
+    width: 100%;
+    padding-top: 62%;
+    border-radius: 12px;
+    overflow: hidden;
+}
+.edicao-flipbook-container iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.edicao-details-section {
+    background: #f5f5f5;
+    padding: 60px 5%;
+}
+.edicao-details-inner {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 60px;
+}
+.edicao-section-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 28px;
+    color: #1E1E1E;
+}
+.edicao-section-title h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+.ed-detail-item {
+    margin-bottom: 22px;
+}
+.ed-detail-item strong {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #555;
+    margin-bottom: 4px;
+}
+.ed-detail-item p {
+    color: #333;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin: 0;
+}
+.credit-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #e0e0e0;
+}
+.credit-item:last-child {
+    border-bottom: none;
+}
+.credit-role {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #888;
+    margin-bottom: 2px;
+}
+.credit-name {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #1E1E1E;
+    white-space: pre-line;
+    line-height: 1.5em;
+}
+.edicao-nav {
+    background: #1E1E1E;
+    padding: 40px 5%;
+}
+.edicao-nav-inner {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.edicao-nav-btn {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    padding: 16px 20px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+.edicao-nav-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+}
+.edicao-nav-next:hover {
+    transform: translateX(4px);
+}
+.edicao-nav-prev:hover {
+    transform: translateX(-4px);
+}
+.edicao-nav-btn div {
+    display: flex;
+    flex-direction: column;
+}
+.edicao-nav-btn small {
+    font-size: 0.72rem;
+    opacity: 0.55;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.edicao-nav-btn strong {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #fff;
+}
+.loading-spinner {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.5);
+    gap: 10px;
+}
+@media (max-width: 900px) {
+    .edicao-hero-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .edicao-meta {
+        justify-content: center;
+    }
+    .edicao-cta-buttons {
+        justify-content: center;
+    }
+    .resumo {
+        text-align: center;
+    }
+    .edicao-details-inner {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    .edicao-flipbook-container {
+        padding-top: 85%;
+    }
+}
+@media (max-width: 600px) {
+    .edicao-hero {
+        padding: 200px 5% 40px;
+    }
+    .edicao-cover {
+        width: 180px;
+        height: 255px;
+    }
+    .edicao-info h1 {
+        font-size: 2rem;
+    }
+    .edicao-nav-btn {
+        padding: 12px;
+    }
+    .edicao-nav-btn strong {
+        font-size: 0.82rem;
+    }
+    .edicao-flipbook-container {
+        padding-top: 120%;
+    }
+}

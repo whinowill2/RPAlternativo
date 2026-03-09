@@ -1,0 +1,37 @@
+.ui-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 28px;
+    border-radius: var(--radius);
+    font-weight: 500;
+    font-size: 1rem;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+}
+.ui-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.ui-btn-light {
+    background-color: var(--cor-white);
+    color: var(--cor-dark);
+}
+.ui-btn-light:hover {
+    background-color: #f0f0f0;
+}
+.ui-btn-dark {
+    background-color: var(--cor-dark);
+    color: var(--cor-white);
+}
+.ui-btn-dark:hover {
+    background-color: #000;
+    color: #fff;
+}
+.ui-btn-icon {
+    flex-shrink: 0;
+}
