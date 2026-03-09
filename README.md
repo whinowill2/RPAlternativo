@@ -33,7 +33,7 @@ Esta aplicação web é compatível e pode ser executada perfeitamente no **Linu
 Abra o seu sistema de terminais (Bash no Linux/macOS ou Prompt de Comando/PowerShell no Windows) e utilize o Git para baixar a pasta do projeto:
 
 ```bash
-git clone https://github.com/SEU_USUARIO/nome-do-repositorio.git
+gh repo clone whinowill2/RPAlternativo
 cd nome-do-repositorio
 ```
 
